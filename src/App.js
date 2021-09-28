@@ -3,9 +3,9 @@ import {useState} from 'react';
 import "./Sidebar.js";
 import "./sidebarlinks/Chat.css"
 import Sidebar from "./Sidebar.js";
-import Feed from "./Feed.js";
-import Widgets from "./Widgets.js"
-import Profile from './sidebarlinks/Profile'
+// import Feed from "./Feed.js";
+// import Widgets from "./Widgets.js"
+// import Profile from './sidebarlinks/Profile'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Home from "./Home";
 import FunctionsIcon from '@material-ui/icons/Functions';
@@ -54,8 +54,8 @@ function App() {
       <div className="aapp">
         <header className="feed_header">
         <FunctionsIcon  className="sideBarTwitterIcon"/>
-        
-          <SignOut />
+        <h1 style={{color:"black",height: "10vh",width: "20vh",paddingTop:"50px"}}>WESHARE</h1>
+        <SignOut />
         </header>
       </div>
       {user?

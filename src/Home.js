@@ -1,6 +1,6 @@
 import "./App.css";
-import "./Sidebar.js";
-import Sidebar from "./Sidebar.js";
+// import "./Sidebar.js";
+// import Sidebar from "./Sidebar.js";
 import Feed from "./Feed.js";
 import Widgets from "./Widgets.js"
 import {BrowserRouter as Router,Route} from 'react-router-dom'
